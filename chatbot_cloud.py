@@ -2,7 +2,7 @@ import streamlit as st
 from groclake.modellake import ModelLake
 
 # Initialize Groclake modules and load API key from Streamlit secrets
-model_lake = ModelLake(api_key=st.secrets["API_KEY"])
+model_lake = ModelLake()
 
 # Customization settings
 CHATBOT_NAME = "Traveler's Buddy"
